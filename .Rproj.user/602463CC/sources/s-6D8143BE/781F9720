@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1500155817390.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "406135815",
+    "id" : "781F9720",
+    "lastKnownWriteTime" : 1500156070,
+    "last_content_update" : 1500156070,
+    "path" : "E:/00_data/Radian/odbc/adrian/data-raw/access.r",
+    "project_path" : "data-raw/access.r",
+    "properties" : {
+        "cursorPosition" : "2,54",
+        "scrollLine" : "0",
+        "tempName" : "Untitled6"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

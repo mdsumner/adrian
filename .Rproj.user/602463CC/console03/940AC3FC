@@ -1,0 +1,28 @@
+[0m[0K]0;[?25l
+[0;32mmdsumner@azimuth [0;35m [0;33m/e/00_data/Radian/odbc/adrian[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git in[0K[?25hi[0Kt[0K[?25l
+[0K[?25hInitialized empty Git repository in E:/00_data/Radian/odbc/adrian/.git/[0K[?25l
+[0K[?25h[?25l
+[0;32mmdsumner@azimuth [0;35m [0;33m/e/00_data/Radian/odbc/adrian[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.Rbuildignore[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mDESCRIPTION[0m[0K
+        [0;31madrian.Rproj[0m[0K
+        [0;31mdata-raw/[0m[0K
+        [0;31minst/[0m[0K
+        [0;31mtests/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mmdsumner@azimuth [0;35m [0;33m/e/00_data/Radian/odbc/adrian[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git c[0K[?25ho[0K[?25l$ git c[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add -[0K[?25h-[0Ka[0Kl[0Kl[0K[?25l
+[0K[?25h

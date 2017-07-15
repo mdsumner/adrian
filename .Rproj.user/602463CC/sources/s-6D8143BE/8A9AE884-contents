@@ -1,0 +1,8 @@
+library(DBI)
+mdb <- dbConnect(odbc::odbc(),
+                 .connection_string = "DBQ=C:\\temp\\Mtcars.mdb;Driver={Microsoft Access Driver (*.mdb)};DriverId=25;FIL=MS Access;MaxBufferSize=2048;PageTimeout=5;UID=admin;")
+dbListTables(mdb)
+#[1] "MSysAccessObjects" "MSysACEs"          "MSysObjects"       "MSysQueries"       "MSysRelationships" "Mtcars"           
+dbListFields(mdb, "file")
+
+

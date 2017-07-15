@@ -1,0 +1,30 @@
+library(odbc)
+
+mapfile <- "inst/examples/8.0/manifold8.0.map"
+dstring <- sprintf("DRIVER={Manifold Project Driver (*.map)};DBQ=%s;Unicode=True;Ansi=False;OpenGIS=True;DSN=Default;", 
+                   normalizePath(mapfile))
+#options(error=quote(dump.frames("odbc", TRUE)))
+con <- dbConnect(odbc::odbc(), .connection_string  = dstring)
+
+
+## listing tables or fields gives the same error
+dbListTables(con)
+#Error in eval(substitute(expr), envir, enclos) : 
+#  nanodbc.cpp:2059: S1092: Requested functionality is not implemented. 
+dbListFields(con, "normal_table")
+#Error in eval(substitute(expr), envir, enclos) : 
+# nanodbc.cpp:2059: S1092: Requested functionality is not implemented. 
+
+## read a table, different error
+dbReadTable(con, "normal_table")
+#Error in eval(substitute(expr), envir, enclos) : 
+# nanodbc.cpp:1526: HY092: [Microsoft][ODBC Driver Manager] Option type out of range 
+
+## non-existent table, new error
+dbSendQuery(con, "SELECT * FROM [normal_tabl]")
+#Error in eval(substitute(expr), envir, enclos) : 
+#  nanodbc.cpp:1289: 42000: Unknown table [normal_tabl]. 
+
+
+## this table does exist, same error for dbReadTable
+dbSendQuery(con, "SELECT * FROM [normal_table]")

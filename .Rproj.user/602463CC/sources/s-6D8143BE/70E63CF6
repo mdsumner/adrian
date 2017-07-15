@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1500155434956.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1024649697",
+    "id" : "70E63CF6",
+    "lastKnownWriteTime" : 1492846244,
+    "last_content_update" : 1492846244,
+    "path" : "E:/00_data/Radian/odbc/adrian/inst/examples/odbc_9.0.160.3.r",
+    "project_path" : "inst/examples/odbc_9.0.160.3.r",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
